@@ -166,6 +166,7 @@ h2{
 .section-services-list{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .services-1{
 	background-image: url("/img/services-1.png");
@@ -182,17 +183,43 @@ h2{
 .section-services-img{
 	height: 165px;
 	background-repeat: no-repeat;
+	margin-bottom: 26px;
 }
 
 .section-services-item{
+	width: 572px;
 	border-radius: 15px;
-	flex: 1 1 50%;
-}
-.section-services-item-pos:not(:nth-child(2n)){
-	margin-right: 23px;
+	background-color: #fff;
 }
 
 
+.section-services-item-pos{
+margin-bottom: 23px;	
+}
 
+
+
+
+.services-ident{
+	margin-left: 45px;
+	margin-right: 126px;
+	margin-bottom: 50px;
+}
+
+/* section-advantag */
+
+.section-heading{
+	margin-bottom: 30px;
+}
+
+/* .section-advantag-list{
+	display: flex;	
+} */
+
+
+.section-advatag-item{
+	display: inline-block;
+	width: 200px;	
+}
 
  
