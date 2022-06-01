@@ -491,3 +491,69 @@ margin-bottom: 23px;
 	font-size: 20px;
 	line-height: 200%;
 }
+
+
+/* section-form */
+.section-form{
+
+}
+
+.form{
+	display:flex;
+	justify-content: space-between;
+	padding:28px;
+	/* border:1px solid red; */
+	border-radius:15px;
+	background-color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+ }
+ select{
+	 width: 169px;
+	 /* appearance: none; */
+	-webkit-appearance: none;
+ }
+
+
+ input{
+	 width: 121px;
+ }
+
+ .section-form-item{
+	padding:4px 20px 3px;
+	border-right:1px solid #E1E1E1;
+ }
+
+ .section-option{
+	
+ }
+
+ 
+ .section-form-title{
+	margin-bottom:15px;
+ }
+ 
+ .tur{
+	padding-right:30px;
+ }
+ .section-form-item-btn{
+	display: flex;
+	align-items:center;
+	margin:auto 28px auto 20px
+ }
+ .form-btn{
+	padding:13px 30px;
+	border:1px solid #CC9933; 
+	border-radius:15px;
+	cursor: pointer;
+	background: #FFFFFF;
+	color:#CC9933;
+ }
+ input,select{
+	border: 0;
+	outline:none;
+ }
+ .section-number-night,.section-number-tour{
+	border-bottom:1px solid #E1E1E1;
+ }
