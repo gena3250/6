@@ -494,8 +494,11 @@ margin-bottom: 23px;
 
 
 /* section-form */
-.section-form{
 
+.tur-form{
+	padding: 38px 45px 71px 40px;
+	background: #E9E9E9;
+	border-radius: 15px;
 }
 
 .form{
@@ -531,6 +534,8 @@ margin-bottom: 23px;
 
  
  .section-form-title{
+	font-size: 12px;
+	line-height: 12px;
 	margin-bottom:15px;
  }
  
