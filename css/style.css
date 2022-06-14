@@ -644,7 +644,8 @@ margin-bottom: 23px;
 .footer-block{
 	display: flex;
 	justify-content: space-between;
-	padding: 51px 51px 0 52px;
+	padding: 51px 51px 46px 52px;
+	position: relative;
 	border-radius: 15px;
 	background-color: #333333;
 	color: #fff;
@@ -660,12 +661,10 @@ margin-bottom: 23px;
 	justify-content: space-between;
 	flex-direction: column;	
 	font-size: 16px;
-	line-height: 30.4px;
+	line-height: 190%;
 }
-.section-contact-font{
-	font-size: 16px;
-	line-height: 150%;
-}
+
+
 
 .footer-social-icon{
 	background-size: contain;
@@ -673,22 +672,33 @@ margin-bottom: 23px;
 	background-color: transparent;
 	background-position: center;
 }
-.footer-social-icon-owl{
-	background-image: url('../img/Vector.svg');
-	
+
+
+.footer-center-telefon,.footer-center-email{
+	font-size: 16px;
+	line-height: 24px;
+	color: #CC9933;
 }
-.footer-social-icon-twitter{
-	width: 25px;
-	height: 25px;
-	background-image: url('../img/twitter.svg');
+.footer-center-telefon{
+	margin-top: 14px;
 }
-.footer-social-icon-facebook{
-	background-image: url('../img/facebook.svg');
+.footer-center-email{
+	margin-top: 15px;
 }
-.footer-social-icon-vk{
-	background-image: url('../img/vk.svg');
-	
+
+.footer-center{
+	margin-top: 7px;
+	margin-right: 260px;
 }
-.footer-social-icon-instagram{
-	background-image: url('../img/instagram.svg');
+
+.footer-label{
+	position: absolute;
+	left: 738px;
+	top: 113px;
+}
+.footer-right-list{
+	margin-top: 7px;
+}
+.footer-right-item:not(:last-child){
+	margin-bottom: 20px;
 }
