@@ -39,9 +39,14 @@
 *{
 	box-sizing: border-box;
 }
+
+:root{
+	--link-color:#cc9933;
+	
+}
 a{
 	text-decoration: none;
-	color:  #CC9933;
+	color: var(--link-color);
 	transition:color 1s ease-in-out;
 }
 
@@ -101,14 +106,18 @@ p{
 }
 button{
 	transition: 1s;
-	color: #CC9933;
+	color:var(--link-color);;
 }
 button:hover{
 	transform: scale(1.25);
-	background-color: #CC9933;
+	background-color:var(--link-color);;
 	border: 3px solid ;
 	color: #fff;
 }
+
+
+
+
 /* HEADER */
 
 .header-header-block{
@@ -190,9 +199,9 @@ button:hover{
 	display:block;
 	padding: 13px 20px;
 	border-radius:10px ;
-	border: 1px solid #CC9933;
+	border: 1px solid var(--link-color);;
 	cursor: pointer;
-	color:#CC9933;
+	color:var(--link-color);;
 }
 
 
@@ -499,7 +508,7 @@ margin-bottom: 23px;
 	line-height: 20px;
 }
 .section-location-item-link{
-	overflow: hidden;
+	/* overflow: hidden; */
 	background: url('/img/hotel-9.jpg') center no-repeat;
 	background-size: cover;
 	border-radius: 15px;
@@ -510,13 +519,39 @@ margin-bottom: 23px;
 	display: block;
 	padding-top: 373px;
 	padding-left: 54px;
-   margin-right: 69px;
-	margin-bottom: 27px;
+   padding-right: 69px;
+	padding-bottom: 27px;
 	font-style: normal;
  	font-weight: 500;
 	font-size: 20px;
 	line-height: 200%;
+	position: relative;
+	color:var(--link-color);
 }
+
+ .section-link::before{
+	content: "<a href='http://gkb4-tambov.ru'></a>";
+	/* display: block; */
+	border-radius: 15px;
+	position: absolute;
+	height: inherit;
+	top: 10px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	cursor: pointer;
+}
+/* .section-link::after{
+	content: '';
+	display: block;
+	position: absolute;	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #333333;
+} */
+
 
 
 /* section-form */
@@ -578,7 +613,7 @@ margin-bottom: 23px;
 	border-radius:15px;
 	cursor: pointer;
 	background: #FFFFFF;
-	color:#CC9933;
+	color:var(--link-color);;
  }
  input,select{
 	border: 0;
@@ -657,7 +692,7 @@ margin-bottom: 23px;
 	color: #999999;
 }
 .section-contact-link{
-	color: #CC9933;
+	color: var(--link-color);;
 }
 
 
@@ -702,7 +737,7 @@ margin-bottom: 23px;
 .footer-center-telefon,.footer-center-email{
 	font-size: 16px;
 	line-height: 24px;
-	color: #CC9933;
+	color:var(--link-color);;
 }
 .footer-center-telefon{
 	margin-top: 14px;
